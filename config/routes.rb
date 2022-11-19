@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get "/", to: "pages#home"
 
+  get "/trekking", to: "trekkings#activities"
 
   #hacer otra rute
 end

@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get "/", to: "pages#home"
 
+
+  #hacer otra rute
 end
 
 
@@ -21,3 +23,22 @@ end
 #crear el view manualmente HOME dentro de PAGES
 
 # Dentro del archivo html , escribit h1 - My primera pagina
+
+#Primer a pagina done
+
+#################################################
+
+#mejorar la pagina  CSS por cambios en _home.scss
+
+#hacer otra ruta para tasks URL
+
+#otro metodo en controllers >> TASKS
+
+#otro archivo HTML >> TASKS
+
+#escribir una task ahi
+
+#git add
+#git commit -m "task"
+#git push origin master
+#git push heroku master
